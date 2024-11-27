@@ -35,9 +35,10 @@ button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
-    border: none;
+    border: 10cm;
     border-radius: 5px;
     cursor: pointer;
+    border-color: mediumseagreen;
 }
 
 button:hover {
