@@ -1,4 +1,4 @@
-print("PyScratch core. If you would like to view PyScratch, please visit: \n https://akishore15.github.io/PyScratch/")
+print("PyScratch core. If you would like to view PyScratch, please visit: \n https://github.com/akishore15/pyscratch")
 print("Or you can login.")
 print("Login")
 username = input("Username: \n")
