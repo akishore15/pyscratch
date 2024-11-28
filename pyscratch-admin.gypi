@@ -12,6 +12,7 @@ if username == "admin" and password == "password":
     print(f"Go to: {addend}")
     print("Add here:")
     input("\n")
+    for x in range(input("Choose an amount of files to be requested."):
 else:
     import time
     code = "invalid-username-or-password"
