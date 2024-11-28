@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Node.js",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/app.js",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "Attach to Node.js",
+            "type": "node",
+            "request": "attach",
+            "processId": "${command:PickProcess}",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "Launch Chrome for Web",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Firefox for Web",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "firefoxExecutable": "/usr/bin/firefox"
+        },
+        {
+            "name": "Python: Launch",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug HTML",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "name": "Debug CSS",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/styles.css"
+        },
+        {
+            "name": "Attach to Docker Container",
+            "type": "docker",
+            "request": "attach",
+            "platform": "node",
+            "containerName": "my-node-app"
+        }
+    ]
+}
